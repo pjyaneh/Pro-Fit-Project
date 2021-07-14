@@ -1,0 +1,16 @@
+<template>
+    <template if:true={speaker}>
+      <lightning-layout vertical-align="center">
+       
+        <lightning-layout-item padding="around-small">
+        
+          <p>
+            <lightning-formatted-email
+              value={speaker.Email}
+            ></lightning-formatted-email>
+          </p>
+         
+        </lightning-layout-item>
+      </lightning-layout>
+    </template>
+  </template>
